@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Document Insight Tool</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>📄 AI Document Insight Tool</h1>
+
+  <!-- Upload Section -->
+  <section>
+    <h2>Upload Resume</h2>
+    <form id="uploadForm">
+      <input type="file" id="resumeFile" accept="application/pdf" required>
+      <button type="submit">Upload</button>
+    </form>
+    <div id="result"></div>
+  </section>
+
+  <hr>
+
+  <!-- History Section -->
+  <section>
+    <h2>History</h2>
+    <button type="button" onclick="fetchHistory()">Load History</button>
+    <ul id="historyList"></ul>
+  </section>
+  <script src="/static/script.js"></script>
+</body>
+</html>

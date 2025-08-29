@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-multipart
+pdfminer.six
+httpx
+python-dotenv
+sqlalchemy
+aiosqlite
