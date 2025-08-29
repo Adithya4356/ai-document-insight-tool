@@ -1,4 +1,5 @@
-const API_BASE = "http://127.0.0.1:8000";  // Backend URL
+// Use Render backend instead of local
+const API_BASE = "https://ai-document-insight-tool.onrender.com";
 
 // Handle resume upload
 document.getElementById("uploadForm").addEventListener("submit", async (e) => {
